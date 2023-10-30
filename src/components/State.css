@@ -1,0 +1,55 @@
+
+statediv {
+    max-width: 400px;
+   
+    margin-top: 800px;
+    margin-left: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+ 
+  select {
+    margin-left: 500px;
+    width: 500px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+
+  select[disabled] {
+    background-color: #f2f2f2;
+    cursor: not-allowed;
+  }
+  
+  
+  option[selected] {
+    font-weight: bold;
+  }
+  
+
+  option {
+    font-size: 16px;
+  }
+  
+ 
+  option:checked {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+  }
+  
